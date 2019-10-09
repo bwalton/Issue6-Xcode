@@ -23,8 +23,7 @@
      
     section = [XLFormSectionDescriptor formSectionWithTitle:@"Hello XLForm!"];
     section.hidden = @YES;
-    
-    NSLog(@"We made it.");
+    NSLog(@"Section is: %@", section.hidden);
 }
 
 
